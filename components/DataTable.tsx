@@ -2,7 +2,7 @@
 
 interface DataTableProps {
   columns: string[];
-  data: Record<string, any>[];
+  data: Record<string, string | number | null>[];
 }
 
 export default function DataTable({ columns, data }: DataTableProps) {

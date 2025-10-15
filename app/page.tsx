@@ -10,7 +10,7 @@ interface ExcelData {
   rows: number;
   columns: number;
   column_names: string[];
-  preview: Record<string, any>[];
+  preview: Record<string, string | number | null>[];
 }
 
 export default function Home() {
